@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Untukmu Rio - Cerita Kita</title>
+</head>
+<body>
+    <div class="container">
+         
+
+<!-- Tambahan interaksi Yes/No -->
+        <div class="btn-container">
+            <button id="yesBtn">Enggak, dia ga akan pernah sayang lagi sama Najla</button>
+            <button id="noBtn">klik ini ,jika berhasil berarti Rio masih sayang sama Najla</button>
+        </div>
+
+        <!-- Image Bomb -->
+        <img id="bomb" src="https://i.imgur.com/Yk1yFHf.png" alt="Bomb" style="display:none;" />
+        
+        <!-- Pop-up Window -->
+        <div id="popup" class="popup" style="display:none;">
+            <h2 >Pesan untuk Najla</h2>
+            <p>Najla, ingatlah bahwa setiap akhir adalah awal yang baru. Kamu pantas mendapatkan kebahagiaan dan cinta yang tulus, tanpa rasa sakit dan keraguan. Jangan biarkan masa lalu mengikatmu, belajarlah dari pengalaman itu dan arahkan fokusmu pada diri sendiri. Luangkan waktu untuk menemukan kembali siapa dirimu dan apa yang membuatmu bahagia. Kamu kuat dan layak untuk mencintai dan dicintai dengan cara yang lebih baik. Jangan ragu untuk melangkah maju,masa depanmu cerah menunggu!</p>
+            
+            <button id="viewMessageBtn">Lihat ini,kamu harus janji jlaa</button>
+           <!-- Tombol Tutup (awalnya tersembunyi) -->
+<button id="closeBtn" style="display:none;">Tutup</button>
+
+            <button id="backBtn" style="display:none;">Kembali</button>
+        </div>
+        
+
+        <div class="btn-container">
+            <button class="back-btn" onclick="location.href='menu.html'">Kembali</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
